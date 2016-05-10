@@ -1,0 +1,181 @@
+/*Portfolio Final Styles*/
+/*
+primary color:
+secondary color:
+third color:
+font colors:
+
+*/
+
+/*Global Styles*/
+body, html{
+  margin:0;
+  font-family:'Roboto', sans-serif;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,h2,h3{
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+/*Header Styles*/
+header{
+  height: 65px;
+  width: 100%;
+  background-color: #fff;
+}
+.logo{
+  width: 400px;
+  height: 100%;
+}
+.logo h1{
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.menu{
+  height: 100%;
+  width: 400px;
+  float: right;
+}
+
+.menu ul{
+  position: absolute;
+  top: 20px;
+}
+
+.menu li{
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+/*Banner Styles*/
+.banner-id{
+  height: auto;
+  width: 100%;
+  padding: 0,30px,0,30px;
+}
+
+#banner{
+  height: 500px;
+  width: 100%;
+  background: url("../img/laptop.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#banner h1{
+  text-align: left;
+  padding-top: 180px;
+  padding-left: 40px;
+  font-size: 2em;
+  color: #fff;
+  font-weight: 100-thin;
+}
+#banner h2{
+  text-align: left;
+  padding-top: 5px;
+  padding-left: 30px;
+  font-size: 4em;
+  color: #fff;
+  font-style: oblique;
+}
+#banner h3{
+  text-align: left;
+  padding-top: 5px;
+  padding-left: 30px;
+  font-size: 10pt;
+  color: #fff;
+  font-weight: 100-thin;
+}
+/*End Banner Section*/
+
+/*Sevices Styles*/
+#services{
+  height: 500px;
+  width: 100%;
+  background-color: #F2F2F2;
+  padding-top: 45px;
+}
+
+.services-container{
+  height: 55%;
+  width: 100%;
+  margin: 0,auto;
+}
+
+#services article{
+  width: 25%;
+  height: 35%;
+  background-color: #F2F2F2;
+  float:left;
+  margin: 0px 22px;
+  padding: 15px 20px;
+  border-radius: 5px;
+  text-align:justify;
+}
+p {margin-top:-1em;}
+#services article h1{
+  text-align: center;
+}
+h1{margin-bottom:0em;margin-left: 2em;}
+
+/*End Services Section*/
+
+/* Works Styles*/
+#works{
+  width: 100%;
+  padding: 30px 0;
+  background-color:#fff;
+  display: inline-block;
+}
+/*End out Works Section*/
+
+/*About Styles*/
+#about{
+  width: 100%;
+  padding: 30px 0;
+  background-color: #F2F2F2;
+  display:inline-block;
+}
+
+.img-box{
+  height: 400px;
+  width: 50%;
+  float: right;
+  background-color: #F2F2F2;
+}
+.about-info{
+  height: 400px;
+  width: 75%;
+  float: left;
+  background-color: #F2F2F2;
+}
+.about-content{
+  height: 300px;
+  width: 800px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+#about h1{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#about p{
+  padding: 0px 15px;
+  text-align: center;
+}
+
+/*End About Section*/

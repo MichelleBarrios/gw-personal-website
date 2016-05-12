@@ -23,7 +23,7 @@ a{
 }
 
 h1,h2,h3{
-  margin: 0;
+  margin: 40px;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -36,10 +36,12 @@ header{
 .logo{
   width: 400px;
   height: 100%;
+  display: inline-block;
 }
 .logo h1{
   text-align: center;
   padding: 10px 0px;
+  margin-top: 3px;
 }
 
 .menu{
@@ -77,14 +79,15 @@ header{
 #banner h1{
   text-align: left;
   padding-top: 180px;
-  padding-left: 40px;
+  padding-left: 45px;
+  margin-left: 40px;
   font-size: 2em;
   color: #fff;
-  font-weight: 100-thin;
+  font-weight: lighter;
 }
 #banner h2{
   text-align: left;
-  padding-top: 5px;
+  padding-top: 0px;
   padding-left: 30px;
   font-size: 4em;
   color: #fff;
@@ -96,86 +99,277 @@ header{
   padding-left: 30px;
   font-size: 10pt;
   color: #fff;
-  font-weight: 100-thin;
+  font-weight: lighter;
 }
 /*End Banner Section*/
 
 /*Sevices Styles*/
 #services{
-  height: 500px;
+  height: 300px;
   width: 100%;
   background-color: #F2F2F2;
   padding-top: 45px;
 }
 
 .services-container{
-  height: 55%;
+  height: 100%;
   width: 100%;
   margin: 0,auto;
 }
 
 #services article{
   width: 25%;
-  height: 35%;
+  height: 25%;
   background-color: #F2F2F2;
   float:left;
   margin: 0px 22px;
+  margin-left: 30px;
   padding: 15px 20px;
   border-radius: 5px;
   text-align:justify;
+  font-size: 10pt;
 }
-p {margin-top:-1em;}
+p {margin-top:-1em;margin-left: 2em;}
 #services article h1{
   text-align: center;
 }
-h1{margin-bottom:0em;margin-left: 2em;}
+h1{margin-bottom:0em;margin-left: 1em;}
 
 /*End Services Section*/
 
 /* Works Styles*/
 #works{
-  width: 100%;
+  width: 110%;
   padding: 30px 0;
   background-color:#fff;
+  margin-left: 40px;
   display: inline-block;
 }
+.img-gallary{
+  height: 400px;
+  width: 25%;
+  float: left;
+  background-color: #fff;
+}
+.img-container{
+  height: 200px;
+  width: 250px;
+  float: left;
+  margin-left: 75px;
+  margin-top: 75px;
+  border-radius: 100%;
+}
+#works img{
+  height: 300px;
+  width: 300px;
+  float: left;
+  padding-top: 30px;
+  padding-left: 50px;
+}
+h6{margin-bottom:0em;margin-left: 2em;padding-top: 30px;}
 /*End out Works Section*/
 
 /*About Styles*/
-#about{
-  width: 100%;
-  padding: 30px 0;
+#about div{
+  height: inherit;
+  width: 75%;
+  padding: 20px 0 0 0;
   background-color: #F2F2F2;
-  display:inline-block;
-}
-
-.img-box{
-  height: 400px;
-  width: 50%;
-  float: right;
-  background-color: #F2F2F2;
+  display:block;
+  float: left;
 }
 .about-info{
-  height: 400px;
-  width: 75%;
+  height: 300px;
+  width: 50%;
   float: left;
   background-color: #F2F2F2;
 }
 .about-content{
   height: 300px;
-  width: 800px;
-  margin-top: 50px;
+  width: 300px;
+  margin-top: -20px;
   border-radius: 5px;
 }
+
 #about h1{
   text-align: center;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 #about p{
-  padding: 0px 15px;
+  margin: 0;
+  margin-right: 5px;
+  padding: -1px 50px;
   text-align: center;
+  font-size: 10pt;
 }
 
-/*End About Section*/
+#about button{
+  height: 30px;
+  width: 95px;
+  background-color: #171912;
+  border: 2px solid black;
+  color: #fff;
+  font-size: 8pt;
+}
+
+#about button:hover{
+  background-color: #C92234;
+}
+
+#img-box div{
+  width: 77%;
+  padding: 30px 0;
+  background-color: #F2F2F2;
+  display:inline-block;
+  float: right;
+}
+.img-box{
+  height: 30px;
+  width: 25%;
+  float: right;
+  background-color: #E3D8C0;
+}
+
+.img-container{
+    margin-left: 730px;
+    margin-top: -376px;
+    margin-bottom: -4px;
+    border-radius: 100%;
+  }
+/*End About section*/
+/*Banner 2 Styling*/
+
+#banner-2{
+  height: 800px;
+  width: 112.8%;
+  background: url("../img/abstract.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.box-1{
+  height: 732px;
+  width: 1265px;
+}
+
+.sub-box-2{
+  height: 200px;
+  width: 1000px;
+  text-align: center;
+  color: #fff;
+  font-size: 10pt;
+  padding: 450px 200px 0px 0px;
+  margin-left: 160px;
+}
+/*End Banner 2 Section*/
+
+/*Contact Styling*/
+#contact{
+  width: 100%;
+  padding: 25px 0;
+  display: inline-block;
+  background-color: #fff;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.text-box{
+  height:400px;
+  width:400px;
+  display: inline-block;
+  text-align: left;
+  font-size: 8pt;
+  margin:0 0 0 10px;
+}
+
+.form-box{
+  height: 300px;
+  width: 500px;
+  margin:-253px;
+  margin-right: -900px;
+  display: inline;
+  ßbackground-color: #fff;
+  padding: 30px 300px 15px 50px;
+  float: right;
+}
+.form-container{
+  height: 200px;
+  width: 250px;
+  display: inline;
+  float: right;
+  margin-left: 75px;
+  margin-top: 75px;
+  border-radius: 100%;
+}
+
+#contact input{
+  height: 20px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+#contact textarea{
+height: 100px;
+width: 100%;
+margin: 5px 0;
+}
+
+h4{margin-left: 40px;}
+
+#contact button{
+  height: 30px;
+  width: 95px;
+  background-color: #171912;
+  border: 2px solid black;
+  color: #fff;
+  font-size: 8pt;
+}
+
+#contact button:hover{
+  background-color: #C92234;
+}
+/*Footer Styles*/
+footer{
+  height: 75px;
+  width: 100%;
+  background-color: #333;
+  clear: both;
+
+}
+.copyright p{
+  margin: 0 30px;
+  text-align: center;
+  float:left;
+  font-size: 8pt;
+  padding: 30px 0;
+  color: #fff;
+}
+
+.follow-us p{
+    margin: 0;
+    text-align: center;
+    float:right;
+    font-size: 8pt;
+    padding: 30px 200px;
+    color: #fff;
+}
+.sm-icons{
+  width: 180px;
+  height: 50px;
+  margin: 20px -350px;
+  float: right;
+}
+
+
+.icon i{
+  font-size: 10pt;
+  text-align: center;
+  color: #fff;
+  padding: 30px 200px;
+  padding: 10px;
+  float: right;
+  diplay: inline
+}
